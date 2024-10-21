@@ -58,6 +58,29 @@
             color: #717171;
         }
 
+        #name a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #name i {
+            color: black;
+            border-radius: 50%;
+            font-size: 30px;
+        }
+
+        #name i:hover {
+            background-color: white;
+
+        }
+
+        nav {
+            align-items: center;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
         nav i,
         span {
             color: lightseagreen;
@@ -79,6 +102,7 @@
 <body>
     <nav>
         <h1><i class="ri-time-fill"></i> Digital Clock UI<span>.</span></h1>
+        <div id="name"><a href="https://github.com/Arham7432"><i class="ri-github-fill"></i></a></div>
     </nav>
 
     <div id="time"></div>
@@ -86,4 +110,4 @@
 
 <script src="app.js"></script>
 
-</html
+</html>
